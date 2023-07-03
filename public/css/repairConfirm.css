@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: EuclidCircular;
+    src: url(../fonts/EuclidCircularA-Medium.ttf);
+}
+.fredoka {
+    font-family: fredoka;
+    color: #352B53;
+}
+body {
+    font-family: EuclidCircular, Lato, sans-serif, monospace;
+}
+.repair {
+    margin-top: 130px;
+    text-align: center;
+}
+.repair-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.api-label {
+    color: grey;
+}
+.api-detail {
+    color: #352B53;
+}
+.pop-title {
+    color: #352B53;
+    font-weight: 600;
+    padding: 5px;
+    margin: 20px 0px 5px;
+    font-family: serif;
+}
+.regapi-input {
+    padding: 5px 20px;
+}
+.invalid-regnumber {
+    color: tomato;
+    display: none;
+}

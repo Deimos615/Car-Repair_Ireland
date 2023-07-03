@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: EuclidCircular;
+    src: url(../fonts/EuclidCircularA-Medium.ttf);
+}
+.fredoka {
+    font-family: fredoka;
+    color: #352B53;
+}
+body {
+    font-family: EuclidCircular, Lato, sans-serif, monospace;
+}
+.reg-image {
+    margin: auto;
+}
+.reg-img {
+    width: 100%;
+}
+.register-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px 0px 0px;
+}
+.back-btn {
+    padding-left: 15px;
+}
+.back-tag {
+    text-decoration: none;
+    color: grey;
+}
+.back-tag:hover {
+    color: black;
+}
+.reg-content {
+    text-align: center;
+    margin-top: 30px;
+}
+.form-subtitle {
+    color: grey;
+}
+.reg-form {
+    width: 60%;
+    margin: auto;
+}
+.reg-text {
+    background-color: #F7F9FA;
+    border: none;
+    border-radius: unset;
+    padding: 15px;
+}
+.reg-input {
+    padding: 5px;
+}
+.reg-btn {
+    color: #fff;
+    border: 3px solid #f75d50;
+    background-image: linear-gradient(30deg, #f75d50 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: unset;
+    width: 200px;
+    margin: 20px auto;
+}
+.reg-btn:hover {
+    background-position: 100%;
+    color: #f75d50;
+}
+.login-link {
+    cursor: pointer;
+}
+.form-check {
+    text-align: left;
+}
+.print-error-msg {
+    display: none;
+    list-style: none;
+    text-align: left;
+}
+#toast-container > div {
+    opacity:1;
+}
+.invalid-feedback {
+    text-align: left;
+}

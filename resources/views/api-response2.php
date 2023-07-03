@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<response>
+    <vehicle>
+        <reg>11KE7764</reg>
+        <make>Audi</make>
+        <model>A5</model>
+        <version>2.0 TDI Sline 168BHP 3DR</version>
+        <body>Coupe</body>
+        <doors>3</doors>
+        <seats>4</seats>
+        <reg_date>2011-07-08</reg_date>
+        <reg_date_ie>2019-03-01</reg_date_ie>
+        <sale_date>2020-08-21</sale_date>
+        <previous_reg>BL11TJU</previous_reg>
+        <engine_cc>1968</engine_cc>
+        <colour>White</colour>
+        <fuel>Diesel</fuel>
+        <transmission>M</transmission>
+        <year_of_manufacture>2011</year_of_manufacture>
+        <tax_class>P</tax_class>
+        <tax_expiry_date>2023-03-31</tax_expiry_date>
+        <NCT_expiry_date>2023-06-30</NCT_expiry_date>
+        <insuranceExpDate/>
+        <nct_pass_date>2023-01-07</nct_pass_date>
+        <no_of_owners>2</no_of_owners>
+        <chassis_no>WAUZZZ8T6BA086635</chassis_no>
+        <engine_no>CAH229276</engine_no>
+        <co2_emissions>134</co2_emissions>
+        <crwExpDate>0000-00-00</crwExpDate>
+        <vehicle_category>A</vehicle_category>
+    </vehicle>
+</response>

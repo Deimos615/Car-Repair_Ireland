@@ -1,0 +1,375 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+.fredoka {
+    font-family: fredoka;
+    color: #352B53;
+}
+@font-face {
+    font-family: EuclidCircular;
+    src: url(../fonts/EuclidCircularA-Medium.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+body {
+    font-family: EuclidCircular, Lato, sans-serif, monospace;
+}
+
+/* Slide Section */
+.slide {
+    margin: 30px 0px;
+    padding-top: 100px;
+}
+.slide-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide-text {
+    color: grey;
+}
+.slide-img {
+    width: 100%;
+}
+.slide-slogan {
+    margin: auto;
+    padding-right: 20px;
+}
+
+/* Transport section */
+.img-bg-section {
+    background-image: url(../images/large/Landing/help-bg.png);
+    background-color: #683AF2;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.booking {
+    margin-top: -350px;
+}
+.form {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+}
+.book-title {
+    margin: 30px 0px;
+    text-align: center;
+}
+.book-input {
+    border: none;
+    background-color: #F7F9FA!important;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: unset;
+}
+.book-box {
+    padding: 5px;
+}
+.esti-btn {
+    color: #fff;
+    border: 3px solid #f75d50;
+    background-image: linear-gradient(30deg, #f75d50 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: unset;
+    margin: 10px 5px;
+}
+.esti-btn:hover {
+    background-position: 100%;
+    color: #f75d50;
+}
+.esti-price {
+    margin: 5px;
+}
+.esti-prices {
+    padding: 15px 15px;
+    border: 1px solid lightgrey;
+    margin: 5px;
+    color: grey;
+}
+.purpose-num {
+    width: 100%;
+    padding: 5px;
+}
+.purpose-area {
+    margin: 10px 0px;
+}
+.purpose-input {
+    height: 150px;
+}
+.trans-btn {
+    color: #fff;
+    border: 3px solid #f75d50;
+    background-image: linear-gradient(30deg, #f75d50 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: unset;
+    width: 200px;
+    display: flex;
+    margin: 15px auto;
+}
+.trans-btn:hover {
+    background-position: 100%;
+    color: #f75d50;
+}
+
+#toast-container > div {
+    opacity:1;
+}
+#distance_val, #duration_val, #estimation_val, #cost_val, #mincost_val {
+    color: #f75d50;
+}
+#map {
+    height: 100%;
+}
+.print-error-msg {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Sell Page: Service section */
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service-cards-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-arrow {
+    display: flex;
+}
+.service-cards a {
+    text-decoration: unset;
+    color: black;
+}
+.ser-card {
+    text-align: center;
+    padding: 15px;
+}
+.service-card {
+    border: 1px solid lightgrey;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 0px;
+    transition-duration: 1s;
+    height: 250px;
+}
+.card-num {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+.ser-title {
+    text-align: center;
+}
+.ser-index {
+    text-align: center;
+}
+.sell-title {
+    text-align: center;
+}
+.ser-img {
+    height: 70px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.arrow-image {
+    text-align: center;
+}
+.down-arrow-img {
+    height: 70px;
+}
+.down-arrow-image {
+    margin: auto;
+    text-align: center;
+}
+#msg_alert p:nth-child(1) {
+    width: 100%!important;
+}
+#msg_alert {
+    text-transform: capitalize;
+}
+
+@media (min-width: 992px) {
+    .down-arrow-image {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .service-arrow {
+        display: none;
+    }
+}
+.form-subtitle {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.policy-check {
+    margin-bottom: 20px;
+}
+.form-subtitle-section {
+    background-image: url("../images/small/sell/Rectangle.png");
+    background-repeat: no-repeat;
+    color: white;
+}
+.form-subtitle-area {
+    border-bottom: 1px solid;
+}
+
+.help {
+    margin: 50px 0px;
+    background-color:#683AF2;
+    background-image: url(../images/large/Landing/help-bg.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+.help-index {
+    color: #F75D50;
+    font-weight: 500;
+}
+.help-title {
+    font-family: Fredoka;
+    margin-bottom: 30px;
+}
+.help-text {
+    width: 70%;
+    margin: auto;
+}
+.help-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.help-card {
+    padding: 15px;
+}
+.help-subtitle {
+    font-family: Fredoka;
+}
+.h-subtitle1 {
+    margin-bottom: 40px;
+}
+.help-img {
+    font-family: Fredoka;
+    font-weight: 600;
+    width: 95px;
+    height: 95px;
+    margin-bottom: 20px;
+}
+.fa-check {
+    margin-top: 5px;
+}
+.help-card-content {
+    display: flex;
+}
+.help-desc {
+    margin-left: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.help-desc-text {
+    margin-left: 15px;
+    text-align: left;
+}
+textarea {
+    resize: none;
+}
+.file-box label {
+    font-size: 14px;    
+    color: grey;
+}
+.preview-image-box {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    padding: 0px 10px;
+}
+.policy-area {
+    display: flex;
+    justify-content: center;
+}
+
+/* Transport Payment Page */
+.payment-section {
+    margin-top: 100px;
+}
+.form-row {
+    padding-top: 15px;
+}
+.stripe-details {
+    padding-bottom: 15px;
+}
+.payment-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stripe-image {
+    width: 80%;
+}
+.stripe-img {
+    margin: auto;
+    text-align: center;
+}
+.pur-option {
+    color: grey;
+}
+
+/* Media Query */
+@media only screen and (max-width: 992px) {
+    #map {
+        width: 98%;
+        height: 350px;
+        margin: auto;
+    }
+}
+
+
+/* Contact Page */
+.contact-slide-img {
+    width: 350px;
+    margin: auto;
+    display: flex;
+}
+.contact-map-section {
+    width: 100%;
+    height: 400px;
+}

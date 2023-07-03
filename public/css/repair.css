@@ -1,0 +1,264 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: EuclidCircular;
+    src: url(../fonts/EuclidCircularA-Medium.ttf);
+}
+.fredoka {
+    font-family: fredoka;
+    color: #352B53;
+}
+body {
+    font-family: EuclidCircular, Lato, sans-serif, monospace;
+}
+.footer {
+    margin-top: 0px;
+}
+.repair {
+    background-color: #ebf2ff;
+    padding-top: 20px;
+}
+.rep-container {
+    padding: 40px 0px;
+}
+.repair-section {
+    margin: auto;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 30px;
+}
+.rep-index {
+    text-align: center;
+    color: red;
+}
+.rep-title {
+    text-align: center;
+
+}
+.repair-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.api-label {
+    color: grey;
+}
+.api-detail {
+    color: #352B53;
+}
+.select-service-items ul {
+    color: #352B53;
+}
+.rep-input {
+    padding: 5px;
+}
+.rep-in {
+    width: 100%;
+    background-color: #f7f9fa!important;
+    border: none;
+    border-radius: unset;
+    padding: 15px 10px;
+    /* color: grey; */
+}
+.rep-option {
+    font-size: 20px;
+}
+.ser-card {
+    padding: 5px;
+}
+.card-content {
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+.card-content:hover {
+    box-shadow: 3px 3px 5px 0px;
+    transition: 500ms;
+}
+.pop-service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-img {
+    height: 90px;
+    width: 90px;
+    margin: 15px 0px;
+}
+.card-text {
+    color: #352B53;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.pop-title {
+    color: #352B53;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 20px 0px 5px;
+}
+.service-list {
+    padding: 5px;
+}
+.list-box {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+.list-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px;
+}
+.list-row:last-child {
+    border-bottom: none;
+}
+.row-content {
+    display: flex;
+}
+.list-img {
+    width: 55px;
+    padding: 5px;
+    background-color: #f7f9fa;
+    margin-right: 20px;
+}
+.list-name {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #352b53;
+    margin: auto;
+    font-weight: 600;
+}
+.row-button {
+    margin: auto 5px;
+}
+.next-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+#backbtn, #secondbackbtn {
+    margin-right: 10px;
+}
+.next-btn, .back-btn, .submit-btn {
+    color: #fff;
+    border: 3px solid #f75d50;
+    background-image: linear-gradient(30deg, #f75d50 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: unset;
+}
+.next-btn:hover, .back-btn:hover, .submit-btn:hover {
+    background-position: 100%;
+    color: #f75d50;
+}
+.accordion-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ser-card-link {
+    color: black!important;
+    text-decoration: unset;
+}
+.check-counter {
+    background-color: #683AF2;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    color: white;
+    width: 30px;
+    text-align: center;
+}
+.accor-title {
+    margin-bottom: 0px;
+    width: 84%;
+}
+.accor-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.error {
+    color: #f75d50;
+}
+.error-show {
+    color: #f75d50;
+}
+.error-msg {
+    color: #f75d50;
+}
+.print-error-msg {
+    display: none;
+    width: 100%;
+}
+.regapi-input {
+    padding: 5px 20px;
+}
+
+#toast-container > div {
+    opacity:1;
+}
+
+/* Help Section */
+.help {
+    background-color: #683AF2;
+    background-image: url(../images/large/Landing/help-bg.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    /* padding: 40px 0px; */
+    padding-top: 150px;
+}
+
+.help-index {
+    color: #F75D50;
+    font-weight: 500;
+}
+
+.help-title {
+    font-family: Fredoka;
+    margin-bottom: 30px;
+}
+
+.help-text {
+    width: 70%;
+    margin: auto;
+}
+
+.help-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.help-card {
+    padding: 40px;
+}
+
+.help-subtitle {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.help-num {
+    font-family: Fredoka;
+    font-weight: 600;
+}
